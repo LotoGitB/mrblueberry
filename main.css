@@ -1,3 +1,22 @@
+@font-face {
+  font-family: PopingMedium;
+  src: url("assets/Fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: PopinsRegular;
+  src: url("assets/Fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: RedHatMono;
+  src: url("assets/Fonts/RedHatMono-Bold.ttf");
+}
+
+@media only screen and (max-width: 768px) {
+  div.test {
+    width: 80%;
+  }
+}
+
 .MainBanner {
   background-image: url(assets/Slider/FOTO1.jpg);
   background-position: center;
@@ -7,6 +26,18 @@
 
 .MainBanner h2.cintillo {
   font-size: 3.5vw;
+}
+
+p.menu {
+  font-family: "PopingMedium";
+}
+
+.tituloFont {
+  font-family: "RedHatMono";
+}
+
+.parrafo{
+  font-family: "PopinsRegular";
 }
 
 @media only screen and (max-width: 768px) {
@@ -80,4 +111,11 @@
 
 .Mapa .leftBorder {
   border-left: solid 4px black;
+}
+
+.leftBorder img.manitas {
+  position: absolute;
+  bottom: -70px;
+  right: 0;
+  width: 130px;
 }
